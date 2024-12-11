@@ -23,4 +23,10 @@ public class MealOrder {
         Item.printItem("TOTAL PRICE",getTotalPrice());
     }
 
+    public  void addBurgerTopping(String extra1, String extra2, String extra3){
+        burger.addToppings(extra1,extra2,extra3);
+    }
+    public  void setDrinkSize(String size){
+        drink.setSize(size);
+    }
 }

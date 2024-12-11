@@ -9,5 +9,9 @@ public class Main {
 //    Burger burger = new Burger("regular",4.00);
 //    burger.addToppings("BACON","STRING","MAYO");
 //    burger.printItem();
+        MealOrder regularMeal = new MealOrder();
+        regularMeal.addBurgerTopping("BACON","CHEESE","MAYO");
+        regularMeal.setDrinkSize("LARGE");
+        regularMeal.printItemizedList();
     }
 }
