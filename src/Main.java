@@ -8,10 +8,14 @@ public class Main {
 //        avocado.printItem();
 //    Burger burger = new Burger("regular",4.00);
 //    burger.addToppings("BACON","STRING","MAYO");
-//    burger.printItem();
-        MealOrder regularMeal = new MealOrder();
-        regularMeal.addBurgerTopping("BACON","CHEESE","MAYO");
-        regularMeal.setDrinkSize("LARGE");
-        regularMeal.printItemizedList();
+////    burger.printItem();
+//        MealOrder regularMeal = new MealOrder();
+//        regularMeal.addBurgerTopping("BACON","CHEESE","MAYO");
+//        regularMeal.setDrinkSize("LARGE");
+//        regularMeal.printItemizedList();
+    MealOrder secondMeal =new MealOrder("Turkey","7-up","chili");
+    secondMeal.addBurgerTopping("LETTUCE","CHEESE","MAYO");
+    secondMeal.setDrinkSize("SMALL");
+    secondMeal.printItemizedList();
     }
 }
